@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <title>FrameFarm</title>
+    <link rel="icon" href="Images/logo.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Original+Surfer&family=Questrial&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/fcdab5ef9b.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Oxygen&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-2">
+        <div class="container-fluid">
+          <img src="Images/logo.png" alt="logo-img" width="55" height="50" class="logo d-inline-block align-text-top">
+             <a class=" framefarm navbar-brand" href="#">FrameFarm</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+         <div class="collapse navbar-collapse text-center" id="navbarSupportedContent"> 
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                <li class="nav-item"> 
+                    <a class="nav-link active" aria-current="page" href="#">Home</a> 
+                 </li>
+                <li class="nav-item">
+                   <a class="nav-link" href="#">Designs</a>
+                 </li>
+                <li class="nav-item"> 
+                    <a class="nav-link" href="#">Community</a>
+                 </li>
+              </ul>
+              <div class="d-grid ms-auto gap-2 d-md-flex justify-content-md-end">
+                <button class="btn btn-dark" type="button">Log In</button>
+                <button class="btn btn-outline-light btn-sm" type="button">Sign Up</button>
+              </div>
+         </div>
+        </div>
+    </nav>
+<!-- NAVBAR SCROLL FUNCTION-->
+    <script>
+      var nav = document.querySelector('nav');
+
+       window.addEventListener('scroll', function(){
+         if(window.pageYOffset > 230){
+           nav.classList.add('bg-dark','shadow');
+         }else{
+           nav.classList.remove('bg-dark','shadow');
+         }
+       })
+    </script>
+    <div
+    class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center">
+    <div class="content text-center">
+      <h1 class="text-white">Publish Your Designs.</h1>
+      <button class="oxygen btn btn-outline-light">Upload</button>
+    </div>
+  </div>
+
+  <div class="second-div container">
+    <div class="row">
+      <div class="col-sm-6">
+       <h2 class="oxygen">About Us.</h2>
+       <p class="about-us">Well, This is a platform where designers and Web-Developers from all over the world can publish or upload their designs
+         . In order to achieve some amount of audience to have a look over their Projects and provide helpful feedbacks.
+        This is a platform which is made for the attention seeking designers.</p>
+      </div>
+      <div class=" second-img col-sm-6">
+        <img class="img-fluid" src="Images/Image-2.jpg" alt="Image-2">
+      </div>
+    </div>
+  </div>
+
+    
+  <div class="middle-container container">
+    <div class="row justify-content-md-center">
+      <div class=" iphone-div col-sm-6">
+        <img class="iphone img-fluid" src="Images/iphone.png" alt="iphone-img">
+       </div>
+        <div class="download-section col-sm-6">
+             <h2 class="Download text-white">Discover the World of FrameFarm.</h2>
+             <p class=" p text-white">A Platform for Web-designers is now accessible on any  <br> iOS and Android devices.</p>
+              <button class="oxygen btn btn-outline-secondary download-button"><i class=" fab fa-apple"></i>Download</button>
+              <button class="oxygen btn btn-outline-light download-button"><i class=" fab fa-google-play"></i>Download</button></div>
+            </div>
+
+       </div>
+       <!--Carousel-->
+       <div id="carouselExampleCaptions" class=" ca carousel slide" data-bs-ride="carousel">
+         <h2 class="design oxygen">Designs.</h2>
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+           <img src="Images/drink.png" class="d-block w-100" alt="drink-website">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="ca-heading">Rù</h5>
+               <a href="https://eatdrinkru.com"><button class="carousel-btn btn btn-outline-light">Visit</button></a>
+            </div>
+          </div>
+          <div class="carousel-item">
+           <img src="Images/non.png" class="d-block w-100" alt="non-website">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="ca-heading">NON</h5>
+              <a href="https://www.non.world"><button class="carousel-btn btn btn-outline-light">Visit</button></a>
+            </div>
+          </div>
+          <div class="carousel-item">
+           <img src="Images/pawzzles.png" class="d-block w-100" alt="pawzzles-website">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="ca-heading" >Pawzzles</h5>
+             <a href="https://pawzzles.cat"><button class=" carousel-btn btn btn-outline-light">Visit</button></a>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
+       <div class="community-container container">
+         <div class="row">
+           <div class=" com-content col-sm-6">
+             <h2 class="com-header">Community.</h2>
+                <p class="about-us">Strating from scratch and ending with a whole package is not a simple thing to do. 
+                  Our Aim is to provide the audience for the attention seeking designers/developers.
+                  Hence we work together with our mates in order to maintain a progressive work-flow, Our community concentrates
+                  on the consumers satisfaction and comfort. 
+                </p>
+           </div>
+           <div class="col-sm-6">
+                <img class="men img-fluid" src="Images/community-1.jpg" alt="community-img1">
+             </div>
+         </div>
+       </div>
+    <footer>
+          <h5 class="no-select">Powered by Bootstrap5.</h5>
+          <p class="no-select">Designed/Developed - Kumar</p>
+    </footer>
+</body>
+</html>

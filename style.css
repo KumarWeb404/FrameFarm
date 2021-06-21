@@ -1,0 +1,139 @@
+title{
+  font-family: 'Original Surfer', cursive;
+}
+
+.banner-image {
+    background-image: url('Images/hero.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+  }
+  .framefarm{
+    font-family: 'Original Surfer', cursive;
+  }
+  .logo{
+    margin-left: 2em;
+
+    margin-right: 1em;
+  }
+  .row{
+    margin-right: 0;
+  }
+  .col-sm-6{
+    padding-right: 0;
+  }
+  .second-img{
+    padding-left: 3em;
+  }
+  .nav-link{
+    font-family: 'Oxygen', sans-serif !important;
+    margin: 0 1em;
+  }
+  .second-div{
+    padding: 0;
+    margin: 10em 0;
+    text-align: center;
+  }
+  .about-us{
+    padding-top: 2em;
+    font-family: 'Cabin', sans-serif;
+    font-size: large;
+    line-height: 2;
+  }
+  .text-white{
+    font-family: 'Ubuntu', sans-serif;
+  }
+  .oxygen{
+    font-family: 'Oxygen', sans-serif;
+  }
+  .middle-container{
+    margin: 0;
+    padding: 7em 0 0 0;
+    background-color: black;
+    max-width: 100%;
+  }
+  .iphone{
+    padding-top: 2em;
+    padding-left: 2em;
+  }
+  .iphone-div{
+    align-items: right;
+  }
+  .download-section{
+    text-align: center;
+  }
+  .Download{
+    color: white;
+    padding-top: 3em;
+    padding-bottom: 2em;
+  }
+  .about-us{
+    margin: auto;
+    width: 50%;
+  }
+  .p{
+    font-size: large;
+  }
+.download-button{
+margin: 5% 3% 5% 0;
+font-size: 1.2em;
+}
+.community-container{
+  margin-top: 6em;
+  text-align: center;
+}
+.men{
+  padding: 2% 3% 5% 2%;
+}
+.com-content{
+  margin-top: 6em;
+}
+.ca{
+  margin-top: 3em;
+  text-align: center;
+}
+.carousel-item{
+  text-align: center;
+}
+.carousel-item::before{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: black;
+  opacity: 0.7;
+}
+.carousel-btn{
+  margin: 1em;
+  margin-bottom: 4em;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 1em;
+}
+.ca-heading{
+  font-family: 'Pangolin', cursive;
+  font-size: 2em;
+}
+.design{
+  margin: 3em 0 1em 0;
+}
+footer{ 
+  margin-top: 2em;
+  padding: 5%;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  background-color: black;
+  color: white;
+}
+.no-select {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
